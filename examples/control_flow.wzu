@@ -1,0 +1,15 @@
+// examples/control_flow.wzu
+count = 0;
+limit = 5;
+total = 0;
+
+while (count < limit) {
+    if (count / 2 * 2 == count) { // Basic check for even-ness
+        total = total + count * 10;
+    } else {
+        total = total + count;
+    }
+    count = count + 1;
+}
+final_total = total; 
+// print(final_total); 

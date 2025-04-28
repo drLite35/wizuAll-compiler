@@ -1,0 +1,7 @@
+// examples/simple_calc.wzu
+a = 5.5;
+b = a * 2 + 3;
+c = -(a + b) / 4;
+
+// Requires manual print in C for now
+// print(c); 

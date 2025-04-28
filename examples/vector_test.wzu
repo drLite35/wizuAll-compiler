@@ -1,0 +1,13 @@
+// examples/vector_test.wzu
+// NOTE: Requires data.dat to exist
+// NOTE: Current filename implementation is fragile (uses ID)
+data_file_name = "data.dat"; // Need string support later
+
+col0 = load_vector(data_file_name, 0);
+col1 = load_vector(data_file_name, 1);
+
+print_vector(col0);
+average(col1);
+max_val(col0);
+
+plot_xy(col0, col1); 
