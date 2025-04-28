@@ -1,0 +1,20 @@
+// examples/math_example.wzu
+
+pi = 3.14159;
+r = 5;
+area = pi * r * r;
+
+val = -10;
+abs_val = 0;
+
+if (val < 0) {
+    abs_val = -val;
+} else {
+    abs_val = val;
+}
+
+circumference = 2 * pi * r;
+
+// print(area);
+// print(abs_val);
+// print(circumference); 

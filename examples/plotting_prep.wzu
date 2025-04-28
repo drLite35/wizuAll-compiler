@@ -1,0 +1,28 @@
+// examples/plotting_prep.wzu
+// Creates two vectors suitable for plotting y = x^2
+
+size = 10;
+count = 0;
+x_vals = load_vector("dummy.dat", 0); // Load dummy to get vector type
+y_vals = load_vector("dummy.dat", 0); // Load dummy to get vector type
+
+// Need vector allocation/resizing functions in WizuAll ideally
+// Placeholder: Assume load_vector allocates based on file size
+// We will overwrite the data here.
+
+// Generate x = 0, 1, 2, ... size-1
+// Generate y = x*x
+// Requires vector element assignment, which isn't supported yet.
+// This example highlights limitations.
+
+print("Cannot fully generate plot data within WizuAll yet.\n");
+
+// If vector element assignment existed:
+// x_vals = create_vector(size);
+// y_vals = create_vector(size);
+// while (count < size) {
+//    x_vals[count] = count; 
+//    y_vals[count] = count * count;
+//    count = count + 1;
+// }
+// plot_xy(x_vals, y_vals); 
